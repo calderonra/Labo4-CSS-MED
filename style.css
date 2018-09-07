@@ -65,6 +65,9 @@ hr{
 
 .wrapper1{
     color: red;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
 }
 p{
     color: gray;
@@ -81,3 +84,11 @@ p{
     border-width: 0.2em;
 }
 
+.art{
+    text-align: justify;
+}
+
+.icono{
+    font-size: 5em;
+    text-align: center;
+}
