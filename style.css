@@ -1,0 +1,83 @@
+#b_rubi{
+    background-color:white;
+    text-align: center;
+    padding: 1em;
+    border-radius: 0.5em;
+    border:2px solid #9b111e;
+    color: #9b111e;
+    font-size: 1em;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: gray;
+}
+
+h1{
+    font-family: sans-serif;
+    color: black;
+}
+
+h2{
+    font-size: 1em;
+    color: black;
+}
+
+h3{
+    color: black;
+}
+
+h4{
+    color: black;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+hr{
+    border-color: red;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+}
+
+
+.grid-container1{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.grid-item{
+    margin: 0.5em;
+}
+
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+
+
+.wrapper1{
+    color: red;
+}
+p{
+    color: gray;
+}
+
+:root{
+    margin: auto;
+    padding: 2em;
+}
+
+.final{
+    color: whitesmoke;
+    border-color:whitesmoke;
+    border-width: 0.2em;
+}
+
