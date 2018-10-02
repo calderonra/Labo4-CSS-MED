@@ -50,11 +50,6 @@ hr{
     border-radius: 0.5em;
 }
 
-.img{
-    display: flex;
-    justify-content: center;
-}
-
 
 
 .grid-container1{
@@ -104,4 +99,30 @@ p{
 article{
     border-bottom-color: gray;
     border-bottom: solid 3px;
+}
+
+.img{
+    
+    max-width: 300px;
+    object-fit: cover;
+    
+}   
+
+#donko{
+
+}
+
+@media only screen and (max-width: 600px){
+    .container{
+        grid-template-columns: 100%;
+    }
+    
+    #donko{
+        max-width: 90%;
+        object-fit: cover;
+    }
+
+    .wrapper1{
+        grid-template-columns: 100%;
+    }
 }
